@@ -210,6 +210,7 @@
 
 
 
+
 // let a=1
 // do{
 //     console.log(a)
@@ -241,7 +242,6 @@
 //     num = parseInt(prompt("Enter number"))
 //     // if (num !== 0) {   
 //         console.log(num);
-    
 // } while (num != 0);
 
 
@@ -254,8 +254,9 @@
 // do {
 //     num = parseInt(prompt("Enter number")) 
 //         console.log(num);
-    
 // } while (num != 0);
+
+
 
 
 
@@ -263,7 +264,6 @@
 // let a = 1
 // let num =  parseInt(prompt("enter a number"))
 // while(a<=10){
-    
 //     console.log(num*a)
 //     a++
 // }
@@ -271,15 +271,17 @@
 
 
 
+
 // let a = 15
 // let sum = 0
-
 // while(a>=1){
 //     sum = sum+a
 //     a--
 // }
-
 // console.log(sum)
+
+
+
 
 
 let sum = 0
@@ -289,6 +291,5 @@ for(let a=1; a<=15; a++)
     {
         sum = sum + a
     }
-   
 }
  console.log(sum)
