@@ -1,7 +1,7 @@
 // document.write("<h1> this is <br> &nbsp class the </h1>")
 
 
-// nasted for loop
+// // nasted for loop
 // for(let a=1 ; a<=5; a++){
 //     // for(let b = 1; b<=a; b++){
 //         document.write("*")
@@ -57,9 +57,9 @@
 
 
 
-let l = parseInt(prompt("Enter a first number"));
-let w = parseInt(prompt("Enter a second number"));
-function areaOfRectangle(length, width) {
-console.log(l*w)
-// console.log("Area of rectangle: " + areaOfRectangle(l, w));
-}
+// let l = parseInt(prompt("Enter a first number"));
+// let w = parseInt(prompt("Enter a second number"));
+// function areaOfRectangle(length, width) {
+// console.log(l*w)
+// // console.log("Area of rectangle: " + areaOfRectangle(l, w));
+// } 
