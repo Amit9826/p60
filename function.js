@@ -110,6 +110,8 @@
 
 
 
+
+
 // function checkNumber(num) {
 //     if (num >= 1 && num <= 5) {
 //         for (let i = 1; i <= num; i++) {
@@ -135,6 +137,9 @@
 
 
 
+
+
+
 // No arg and with return 
 // function demo()
 // {
@@ -142,6 +147,8 @@
 //     return a+a
 // }
 // console.log(demo())
+
+
 
 
 
@@ -171,7 +178,8 @@
 
 
 
-function areaOfTriangle() {
+function areaOfTriangle() 
+{
     let base = parseFloat(prompt("Enter the base of the triangle:"));
     let height = parseFloat(prompt("Enter the height of the triangle:"));
 
