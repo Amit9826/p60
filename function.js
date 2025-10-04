@@ -88,47 +88,6 @@
 // console.log(demo("Rahul"));
 
 
-// let n = parseInt(prompt("enter a number"))
-// let sum = 0;
-// function add(num)
-// {
-//     if(num%2==0){
-//         for(let i=1; i>=15; i++){  
-//             sum = sum + i
-//             return  sum;           
-//         }
-//     }
-//     else {
-//         console.log(num + "even")  
-//     }
-// }
-// console.log(add(n));
-
-
-
-
-
-
-
-
-
-
-// let n = parseInt(prompt("enter a number"))
-// let sum = 0;
-// function add(num)
-// {
-//     if(num%2==0){
-//         for(let i=1; i>=15; i++){
-//             sum = sum + i
-//             return  sum;
-//         }
-//     }
-//     else {
-//         console.log(num + "even")
-//     }
-// }
-// console.log(add(n));
-
 
 
 
@@ -136,12 +95,12 @@
 // function add(num)
 // {
 //     let sum = 0;
-
 //     if(num%2==0){
-//         for(let i=1; i>=15; i++){   
+//         for(let i=1; i<=15; i++){  
 //             sum = sum + i
-//             return  sum;           
 //         }
+//     return  sum;          
+
 //     }
 //     else {
 //         console.log(num + "even")  
@@ -151,18 +110,86 @@
 
 
 
-let n = parseInt(prompt("Enter a number"));
-function add(num) {
-    let sum = 0;
-    if(num % 2 == 0) {
-        for(let i = 1; i <= 15; i++) {
-            sum += i;
-        }
-        console.log("Sum = " + sum);  
-        return sum;                   
-    } else {
-        console.log(num + " is odd"); 
-    }
+// function checkNumber(num) {
+//     if (num >= 1 && num <= 5) {
+//         for (let i = 1; i <= num; i++) {
+//             if (i % 2 == 0) {
+//             console.log(i + " even")
+//             }
+//         }
+//     } 
+//     else if (num > 1 && num <= 15) {
+//         let sum = 0;
+//         for (let i = 1; i <= num; i++) {
+//             sum += i;
+//         }
+//         return sum;
+//     } 
+//     else {
+//         console.log("invalid")
+//     }
+// }
+// let n = parseInt(prompt("Enter a number between 1 and 15:"));
+// let result = checkNumber(n); 
+// console.log(result);           
+
+
+
+// No arg and with return 
+// function demo()
+// {
+//     let a = 9;
+//     return a+a
+// }
+// console.log(demo())
+
+
+
+
+// function demo()
+// {
+//     let a = parseInt(prompt("Enter a number"))
+//     return 3.14*a*a;
+// }
+// console.log(demo())
+
+
+
+
+
+
+
+
+// function areaOfTriangle(base, height) {
+//     return 0.5 * base * height;
+// }
+// let base = parseFloat(prompt("Enter base of triangle:"));
+// let height = parseFloat(prompt("Enter height of triangle:"));
+// let area = areaOfTriangle(base, height);
+// console.log("Area of triangle = " + area);
+
+
+
+
+function areaOfTriangle() {
+    let base = parseFloat(prompt("Enter the base of the triangle:"));
+    let height = parseFloat(prompt("Enter the height of the triangle:"));
+
+    return 0.5 * base * height; 
 }
-add(n); 
+let area = areaOfTriangle(); 
+console.log("Area of triangle = " + area);
+alert("Area of triangle = " + area);
+
+
+
+
+
+
+
+
+
+
+
+
 

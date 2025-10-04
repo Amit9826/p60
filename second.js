@@ -50,9 +50,9 @@
 
 
 
-
-// let n1 = parseInt(prompt("Enter a no"))
-// console.log(n1%2)
+ 
+let n1 = parseInt(prompt("Enter a no"))
+console.log(n1%2)
 
 
 
@@ -284,12 +284,12 @@
 
 
 
-let sum = 0
-for(let a=1; a<=15; a++)
-{
-    if(a%2 != 0)
-    {
-        sum = sum + a
-    }
-}
- console.log(sum)
+// let sum = 0
+// for(let a=1; a<=15; a++)
+// {
+//     if(a%2 != 0)
+//     {
+//         sum = sum + a
+//     }
+// }
+//  console.log(sum)
